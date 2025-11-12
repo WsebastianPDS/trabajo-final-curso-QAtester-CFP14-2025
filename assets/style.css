@@ -1,0 +1,182 @@
+/* ====== Estilos generales ====== */
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* ====== Barra de navegación ====== */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #222;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #00bcd4;
+}
+
+/* ====== Sección: Quien Soy ====== */
+.presentacion {
+    background-color: #dad8d8;
+    margin-top: 80px; /* margen superior para que no tape la navbar */
+    padding: 40px;
+    text-align: center;
+}
+
+/* ====== Sección: Formación Académica ====== */
+.formacion-academica {
+    padding: 40px;
+    text-align: left;
+}
+
+.formacion-academica ul {
+    color: #0066cc; /* color distinto al del texto general */
+}
+
+/* ====== Sección: Experiencia Laboral ====== */
+.experiencia-laboral {
+    padding: 40px;
+    text-align: center;
+}
+
+.experiencia-laboral table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.experiencia-laboral th,
+.experiencia-laboral td {
+    border: 1px solid #333;
+    padding: 5px;
+}
+
+/* ====== Sección: Intereses ====== */
+.intereses {
+    padding: 40px;
+    text-align: center;
+}
+
+.intereses .galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.intereses img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.intereses img:hover {
+    transform: scale(1.1);
+}
+
+/* ====== Sección: Contacto ====== */
+.contacto {
+    padding: 40px;
+    text-align: center;
+    border: 1px solid #333;
+    margin: 40px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto input[type="tel"],
+.contacto input[type="date"],
+.contacto input[type="file"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #888;
+}
+
+.contacto button {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contacto button:hover {
+    background-color: #008ba3;
+}
+
+/* ====== Footer ====== */
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #00bcd4; /* cambia de gris a azul al hacer hover */
+}
+
+/* ====== Responsive ====== */
+@media (max-width: 768px) {
+    .navbar li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .intereses .galeria {
+        flex-direction: column;
+    }
+
+    .contacto {
+        width: 90%;
+    }
+}
