@@ -1,4 +1,4 @@
-# Trabajo Final – Practica Profesional QA Tester (CFP14 – 2025)
+# Practica Profesional QA Tester (CFP14 – 2025)
 
 Proyecto final realizado para el **curso de QA Tester** dictado en el CFP14 durante el año 2025.
 
