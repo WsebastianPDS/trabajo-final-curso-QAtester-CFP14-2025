@@ -57,7 +57,7 @@ Cada commit representa un avance concreto del proyecto, permitiendo rastrear el 
 ## 👤 Autor
 
 **William Sebastian Pinto Da Silva**  
-QA Tester Jr. | Developer Jr.
+Junior Backend Developer | C# · .NET · SQL | QA Testing
 
 ---
 
