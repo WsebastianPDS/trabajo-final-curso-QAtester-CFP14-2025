@@ -31,7 +31,7 @@ El foco del proyecto **no está en la complejidad del desarrollo**, sino en:
 ## 🛠️ Tecnologías utilizadas
 
 - HTML5
-- CSS3
+- CSS
 - Git / GitHub (control de versiones)
 
 ---
